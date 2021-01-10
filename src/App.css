@@ -20,11 +20,20 @@
     justify-content: center;
     align-items: center;
   }
-  form input,
+  form input{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: white;
+  }
   form button {
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     background: white;
   }
   form button {
@@ -54,6 +63,8 @@
     font-size: 1.5rem;
     color: black;
     display: flex;
+    border-top-left-radius: 7px ;
+    border-bottom-left-radius: 7px;
     justify-content: space-between;
     align-items: center;
     transition: all 1s ease;
@@ -105,6 +116,7 @@
     outline: 0;
     box-shadow: none;
     border: 0 !important;
+    border-radius: 5px;
     background-image: none;
   }
   
